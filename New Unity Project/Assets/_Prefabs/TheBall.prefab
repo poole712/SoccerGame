@@ -121,4 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f4f70a7b563dd42bb5435cc8f026a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballThrust: 5000
+  ballThrust: 3000

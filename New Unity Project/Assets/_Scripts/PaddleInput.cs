@@ -43,7 +43,7 @@ public class PaddleInput : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space))
         {
-            punching = true;
+            //punching = true;
         }
         if (punching == true)
         {
@@ -70,6 +70,6 @@ public class PaddleInput : MonoBehaviour
     }
     public void Punch()
     {
-        paddleRB.AddForce(-transform.forward * punchPower);
+        paddleRB.AddForce(transform.forward * punchPower);
     }
 }
